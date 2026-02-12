@@ -327,18 +327,19 @@ img {
 
 
 
-.testimonial{
+.testimonial {
     padding-bottom: 140px;
 }
 
-.reviews_wrapper{
+.reviews_wrapper {
     margin-top: 50px;
     display: grid;
     gap: 30px;
     overflow-x: auto;
     grid-template-columns: repeat(3, 1fr);
 }
-.reviews_box{
+
+.reviews_box {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -350,14 +351,76 @@ img {
     border-radius: 16px;
 }
 
-.reviews_autor{
+.reviews_autor {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 16px;
 }
 
-.name{
+.quote {
+    background: url(../img/quote_start.png) 0 0 no-repeat, url(../img/quote_end.png) bottom right no-repeat;
+    padding-left: 20px;
+}
+
+.name {
     font-weight: 500;
     color: #000000;
+}
+
+
+
+
+.contact {
+    padding-bottom: 100px;
+}
+
+.contact .container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.contact_txt {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 620px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.df {
+    display: flex;
+    align-items: start;
+    gap: 16px;
+}
+
+.form {
+    background-color: #101C26;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+    gap: 24px;
+    width: 620px;
+    border-radius: 16px;
+    padding: 80px;
+}
+
+input {
+    width: 400px;
+    background-color: transparent;
+    border-bottom: 1px solid #D3D3D3;
+    padding: 16px 0;
+    color: white;
+}
+
+input::placeholder {
+    font-size: 14px;
+    color: #D3D3D3;
 }
