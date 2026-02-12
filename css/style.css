@@ -46,3 +46,42 @@ img {
 .yellow {
     color: #F0E714;
 }
+
+.btn {
+    padding: 13px 32px;
+    color: #101C26;
+    background-color: #F0E714;
+    border-radius: 1000px;
+    font-weight: 500;
+}
+
+.active {
+    color: #FFFFFF;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}
+
+
+.header {
+    background-color: #101C26;
+    color: #BAB9B9;
+    padding: 30px 0;
+}
+
+.header_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_link {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header_btn {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
