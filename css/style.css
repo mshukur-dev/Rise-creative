@@ -5,6 +5,7 @@ body {
     font-size: 20px;
     color: #555C68;
     line-height: 130%;
+    background-color: #F3F4F6;
 }
 
 a {
@@ -30,7 +31,7 @@ h3 {
     font-size: 24px;
     line-height: 100%;
     font-weight: 700;
-    color: inherit;
+    color: #101C26;
 }
 
 img {
@@ -244,4 +245,39 @@ img {
     display: flex;
     align-items: center;
     gap: 24px;
+}
+
+
+
+.our{
+    padding: 0 0 140px;
+}
+
+.intro_center{
+    text-align: center;
+    align-items: center;
+    max-width: 660px;
+    margin: 0 auto;
+}
+
+
+.our_wrapper{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 250px);
+    gap: 30px;
+}
+.our_box{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 24px;
+    padding: 32px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.shadow{
+    box-shadow: 1px 1px 30px #9897975E;
 }
