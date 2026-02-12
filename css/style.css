@@ -205,3 +205,43 @@ img {
     gap: 16px;
     max-width: 630px;
 }
+
+
+
+
+
+
+
+
+
+
+.why {
+    padding-bottom: 140px;
+}
+
+
+.why .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.why_txt {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 630px;
+}
+
+.why_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.why_box {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
