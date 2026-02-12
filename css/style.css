@@ -153,3 +153,55 @@ img {
     display: flex;
     justify-content: space-between;
 }
+
+
+
+
+.about {
+    padding: 140px 0;
+}
+
+.about .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    color: #101C26;
+}
+
+
+.block_txt {
+    text-transform: uppercase;
+    font-size: 16px;
+    background-color: #F0E71433;
+    border-radius: 1000px;
+    width: fit-content;
+    padding: 8px 16px;
+    font-weight: 500;
+}
+
+.arrow_right_gold {
+    padding-top: 5px;
+    height: 15px;
+}
+
+.gold_btn {
+    display: flex;
+    gap: 10px;
+    color: #F0E714;
+    background-color: #24272E;
+    font-size: 15px;
+}
+
+.about_txt {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 16px;
+    max-width: 630px;
+}
